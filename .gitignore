@@ -1,0 +1,43 @@
+# ──────────────────────────────────────────
+# Node / npm
+# ──────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ──────────────────────────────────────────
+# Environment variables — NEVER commit these
+# ──────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ──────────────────────────────────────────
+# Build output
+# ──────────────────────────────────────────
+dist/
+dist-ssr/
+build/
+
+# ──────────────────────────────────────────
+# OS / editor artefacts
+# ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ──────────────────────────────────────────
+# Logs
+# ──────────────────────────────────────────
+logs/
+*.log
